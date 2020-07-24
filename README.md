@@ -20,14 +20,20 @@ https://learn.hashicorp.com/terraform/getting-started/install.html
 - Crie seu usuário na AWS para utilização
 - Exporte seu Access Key e Secret Key para utilizar
 - COnfigure seu arquivo .aws/credentials:
-```[aws_profile]
+```
+[aws_profile]
 aws_access_key_id = <value>
 aws_secret_access_key = <value>
 region = us-east-1
 ```
+- rode o seguinte comando:
+```
+$ export AWS_PROFILE='aws_profile'
+```
 - Vá ao diretório do modulo que deseja executar:
 ex:
-```$ cd /modulosTerraform/modules/vpc
+```
+$ cd /modulosTerraform/modules/vpc
 /modulosTerraform/modules/vpc$ ls
 main.tf  outputs.tf  terraform.tfstate  terraform.tfstate.backup  vars.tf
 ```
