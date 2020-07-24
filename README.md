@@ -19,7 +19,7 @@ https://learn.hashicorp.com/terraform/getting-started/install.html
 ## Como utilizar os módulos:
 - Crie seu usuário na AWS para utilização
 - Exporte seu Access Key e Secret Key para utilizar
-- COnfigure seu arquivo .aws/credentials:
+- Configure seu arquivo .aws/credentials:
 ```
 [aws_profile]
 aws_access_key_id = <value>
